@@ -11,36 +11,32 @@
 </head>
 
 <body>
-    <!-- <div class="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#photo">Photo</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#user">User Login</a></li>
-        </ul>
-    </div> -->
+
     <div class="search">
-        <input class="nameInput" type="text" placeholder="Name Of Photos">
-        <input class="numberInput" type="text" placeholder="Number">
-        <select class="dropDown">
-            <option value="n">Small Size</option>
-            <option value="z">Medium Size</option>
-            <option value="b">Large Size</option>
-            
-        </select>
+        <form>
+            <input class="nameInput" type="text" placeholder="Name Of Photos">
+            <input class="numberInput" type="text" placeholder="Number">
+            <select class="picSize">
+                <option value="n">Small Size</option>
+                <option value="z">Medium Size</option>
+                <option value="b">Large Size</option>
+
+            </select>
+
             <select id="sortImages">
                 <option value="default">Sort</option>
                 <option value="date-posted-desc">Newest uploads</option>
                 <option value="relevance">Relevance</option>
                 <option value="interestingness-desc">Interestingness</option>
             </select>
-        <div class="searchButton">Search</div>
+            <button>Search</button>
+        </form>
 
     </div>
     <div class="gallery"></div>
-    <!-- <div class="next">Next Page</div> -->
-    <div class="imageContainer"></div>
     
+    <div class="imageContainer"></div>
+
 
 </body>
 
