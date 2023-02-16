@@ -10,25 +10,6 @@ body {
     background-color: bisque;
 }
 
-/* ul {
-    background: rgb(152, 8, 128);
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    
-}
-
-ul a {
-    display: block;
-    padding: 8px;
-    color: aliceblue;
-    font-size: large;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-
-} */
-
 .search {
     top: 50;
     left: 0;
@@ -46,8 +27,10 @@ input {
     font-size: 1rem;
 }
 
+
+
 select {
-    width: 12%;
+    width: 15%;
     padding: 10px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -57,8 +40,8 @@ select {
     background-color: white;
 }
 
-.searchButton {
-    padding: 0.5rem 3rem;
+button {
+    padding: 0.3rem 2rem;
     margin-left: 10px;
     background: tomato;
     color: white;
@@ -66,17 +49,6 @@ select {
     cursor: pointer;
     text-align: center;
 }
-
-/* .next {
-    position: fixed;
-    top: 90%;
-    right: 0%;
-    padding: 0.5rem 0.5rem;
-    border: 1px solid black;
-    width: 100px;
-    text-align: center;
-    cursor: pointer;
-} */
 
 .gallery {
     width: 90%;
