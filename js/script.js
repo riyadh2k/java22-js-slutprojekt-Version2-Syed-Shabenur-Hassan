@@ -55,14 +55,14 @@ function displayPhotoImages(photoInfo) {
 
         photoInfo.photos.photo.forEach(imgUrl => {
 
-            const imgUrl2 = `https://live.staticflickr.com/${imgUrl.server}/${imgUrl.id}_${imgUrl.secret}_${sizeInput}.jpg;`;
+            const imageLink = `https://live.staticflickr.com/${imgUrl.server}/${imgUrl.id}_${imgUrl.secret}_${sizeInput}.jpg;`;
 
             const blankLink = document.createElement('a');
             const img = document.createElement('img');
             imageContainer.append(blankLink);
             blankLink.append(img);
-            img.src = imgUrl2;
-            blankLink.href = imgUrl2;
+            img.src = imageLink;
+            blankLink.href = imageLink;
             blankLink.target = '_blank';
         });
 
